@@ -69,7 +69,7 @@ document.querySelector(".add").onclick = function () {
             "top: 10px;" +
             "background: red;" +
             "background-size: cover; " +
-            "padding: 1.5px 1px 1px 1px; ";
+            "padding: 1px 1px 1px 1px; ";
         deleteCard.textContent = "X";
         if (count === 0) {
             deleteAll = document.createElement("button");
